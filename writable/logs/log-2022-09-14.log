@@ -1,0 +1,147 @@
+ERROR - 2022-09-14 12:23:50 --> Table 'db_apitechhousing.tbl_clientes' doesn't exist
+CRITICAL - 2022-09-14 12:23:50 --> Call to a member function getRow() on bool
+#0 C:\laragon\www\ApiTechHousing\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('35', 'telefono', Array, NULL)
+#1 C:\laragon\www\ApiTechHousing\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('telefono', 'telefono', '35', Array, Array)
+#2 C:\laragon\www\ApiTechHousing\app\Controllers\Usuarios.php(53): CodeIgniter\Validation\Validation->run()
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Usuarios->create()
+#4 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-09-14 12:24:33 --> Table 'db_apitechhousing.tbl_clientes' doesn't exist
+CRITICAL - 2022-09-14 12:24:34 --> Call to a member function getRow() on bool
+#0 C:\laragon\www\ApiTechHousing\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('35', 'telefono', Array, NULL)
+#1 C:\laragon\www\ApiTechHousing\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('telefono', 'telefono', '35', Array, Array)
+#2 C:\laragon\www\ApiTechHousing\app\Controllers\Usuarios.php(53): CodeIgniter\Validation\Validation->run()
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Usuarios->create()
+#4 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-09-14 12:26:03 --> Table 'db_apitechhousing.tbl_clientes' doesn't exist
+CRITICAL - 2022-09-14 12:26:03 --> Call to a member function getRow() on bool
+#0 C:\laragon\www\ApiTechHousing\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('35', 'telefono', Array, NULL)
+#1 C:\laragon\www\ApiTechHousing\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('telefono', 'telefono', '35', Array, Array)
+#2 C:\laragon\www\ApiTechHousing\app\Controllers\Usuarios.php(53): CodeIgniter\Validation\Validation->run()
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Usuarios->create()
+#4 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-09-14 12:26:42 --> Table 'db_apitechhousing.tbl_clientes' doesn't exist
+CRITICAL - 2022-09-14 12:26:42 --> Call to a member function getRow() on bool
+#0 C:\laragon\www\ApiTechHousing\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('35', 'telefono', Array, NULL)
+#1 C:\laragon\www\ApiTechHousing\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('telefono', 'telefono', '35', Array, Array)
+#2 C:\laragon\www\ApiTechHousing\app\Controllers\Usuarios.php(53): CodeIgniter\Validation\Validation->run()
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Usuarios->create()
+#4 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-09-14 12:28:00 --> Table 'db_apitechhousing.tbl_clientes' doesn't exist
+CRITICAL - 2022-09-14 12:28:00 --> Call to a member function getRow() on bool
+#0 C:\laragon\www\ApiTechHousing\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('35', 'telefono', Array, NULL)
+#1 C:\laragon\www\ApiTechHousing\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('telefono', 'telefono', '35', Array, Array)
+#2 C:\laragon\www\ApiTechHousing\app\Controllers\Usuarios.php(54): CodeIgniter\Validation\Validation->run()
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Usuarios->create()
+#4 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-09-14 12:28:55 --> Table 'db_apitechhousing.tbl_clientes' doesn't exist
+CRITICAL - 2022-09-14 12:28:55 --> Call to a member function getRow() on bool
+#0 C:\laragon\www\ApiTechHousing\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('35', 'telefono', Array, NULL)
+#1 C:\laragon\www\ApiTechHousing\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('telefono', 'telefono', '35', Array, Array)
+#2 C:\laragon\www\ApiTechHousing\app\Controllers\Usuarios.php(54): CodeIgniter\Validation\Validation->run()
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Usuarios->create()
+#4 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-09-14 12:29:02 --> Table 'db_apitechhousing.tbl_clientes' doesn't exist
+CRITICAL - 2022-09-14 12:29:03 --> Call to a member function getRow() on bool
+#0 C:\laragon\www\ApiTechHousing\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('35', 'telefono', Array, NULL)
+#1 C:\laragon\www\ApiTechHousing\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('telefono', 'telefono', '35', Array, Array)
+#2 C:\laragon\www\ApiTechHousing\app\Controllers\Usuarios.php(54): CodeIgniter\Validation\Validation->run()
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Usuarios->create()
+#4 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-09-14 12:35:09 --> Table 'db_apitechhousing.tbl_clientes' doesn't exist
+CRITICAL - 2022-09-14 12:35:09 --> Call to a member function getRow() on bool
+#0 C:\laragon\www\ApiTechHousing\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('35', 'telefono', Array, NULL)
+#1 C:\laragon\www\ApiTechHousing\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('telefono', 'telefono', '35', Array, Array)
+#2 C:\laragon\www\ApiTechHousing\app\Controllers\Usuarios.php(54): CodeIgniter\Validation\Validation->run()
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Usuarios->create()
+#4 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-09-14 12:36:51 --> Table 'db_apitechhousing.tbl_clientes' doesn't exist
+CRITICAL - 2022-09-14 12:36:51 --> Call to a member function getRow() on bool
+#0 C:\laragon\www\ApiTechHousing\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('35', 'telefono', Array, NULL)
+#1 C:\laragon\www\ApiTechHousing\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('telefono', 'telefono', '35', Array, Array)
+#2 C:\laragon\www\ApiTechHousing\app\Controllers\Usuarios.php(54): CodeIgniter\Validation\Validation->run()
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Usuarios->create()
+#4 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-09-14 12:38:00 --> Table 'db_apitechhousing.tbl_clientes' doesn't exist
+CRITICAL - 2022-09-14 12:38:00 --> Call to a member function getRow() on bool
+#0 C:\laragon\www\ApiTechHousing\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('335', 'telefono', Array, NULL)
+#1 C:\laragon\www\ApiTechHousing\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('telefono', 'telefono', '335', Array, Array)
+#2 C:\laragon\www\ApiTechHousing\app\Controllers\Usuarios.php(54): CodeIgniter\Validation\Validation->run()
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Usuarios->create()
+#4 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-09-14 12:38:09 --> Table 'db_apitechhousing.tbl_clientes' doesn't exist
+CRITICAL - 2022-09-14 12:38:09 --> Call to a member function getRow() on bool
+#0 C:\laragon\www\ApiTechHousing\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('335', 'telefono', Array, NULL)
+#1 C:\laragon\www\ApiTechHousing\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('telefono', 'telefono', '335', Array, Array)
+#2 C:\laragon\www\ApiTechHousing\app\Controllers\Usuarios.php(54): CodeIgniter\Validation\Validation->run()
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Usuarios->create()
+#4 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-09-14 12:38:25 --> Table 'db_apitechhousing.tbl_clientes' doesn't exist
+CRITICAL - 2022-09-14 12:38:25 --> Call to a member function getRow() on bool
+#0 C:\laragon\www\ApiTechHousing\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('335', 'telefono', Array, NULL)
+#1 C:\laragon\www\ApiTechHousing\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('telefono', 'telefono', '335', Array, Array)
+#2 C:\laragon\www\ApiTechHousing\app\Controllers\Usuarios.php(54): CodeIgniter\Validation\Validation->run()
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Usuarios->create()
+#4 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-09-14 12:38:43 --> Table 'db_apitechhousing.tbl_clientes' doesn't exist
+CRITICAL - 2022-09-14 12:38:43 --> Call to a member function getRow() on bool
+#0 C:\laragon\www\ApiTechHousing\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('335', 'telefono', Array, NULL)
+#1 C:\laragon\www\ApiTechHousing\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('telefono', 'telefono', '335', Array, Array)
+#2 C:\laragon\www\ApiTechHousing\app\Controllers\Usuarios.php(54): CodeIgniter\Validation\Validation->run()
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Usuarios->create()
+#4 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-09-14 12:40:10 --> Unknown column 'idRol2' in 'field list'
+ERROR - 2022-09-14 12:48:43 --> Unknown column 'idRol2' in 'field list'
+ERROR - 2022-09-14 12:49:30 --> Unknown column 'idRol2' in 'field list'
+ERROR - 2022-09-14 12:49:59 --> Unknown column 'idRol2' in 'field list'
+ERROR - 2022-09-14 12:50:58 --> Unknown column 'idRol2' in 'field list'
+ERROR - 2022-09-14 12:53:40 --> Unknown column 'idRol2' in 'field list'
+ERROR - 2022-09-14 12:54:35 --> Unknown column 'idRol2' in 'field list'
+ERROR - 2022-09-14 15:11:57 --> Unknown column 'usuario' in 'where clause'
+CRITICAL - 2022-09-14 15:11:58 --> Call to a member function getFirstRow() on bool
+#0 C:\laragon\www\ApiTechHousing\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\laragon\www\ApiTechHousing\app\Models\UsuariosModel.php(68): CodeIgniter\BaseModel->first()
+#2 C:\laragon\www\ApiTechHousing\app\Controllers\Login.php(28): App\Models\UsuariosModel->buscarUsuario('usuario', 'dima@gmail.com')
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Login->login()
+#4 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
