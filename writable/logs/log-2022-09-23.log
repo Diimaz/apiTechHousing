@@ -1,0 +1,14 @@
+CRITICAL - 2022-09-23 22:50:31 --> Undefined variable: i
+#0 C:\laragon\www\ApiTechHousing\app\Controllers\Capacitaciones.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 28, Array)
+#1 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Capacitaciones->create()
+#2 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitaciones))
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-23 22:54:48 --> Undefined index: foto
+#0 C:\laragon\www\ApiTechHousing\app\Controllers\Capacitaciones.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 96, Array)
+#1 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Capacitaciones->create()
+#2 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitaciones))
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
