@@ -37,6 +37,7 @@ $routes->resource('usuarios');
 $routes->resource('capacitaciones');
 $routes->post('login', 'Auth::login');
 $routes->post('registrar', 'Auth::register');
+$routes->post('reportes', 'Reportes::reporte');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
