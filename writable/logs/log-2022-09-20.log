@@ -1,0 +1,86 @@
+ERROR - 2022-09-20 09:50:19 --> Unknown column 'imagenFinalizacion' in 'field list'
+CRITICAL - 2022-09-20 09:50:19 --> Unknown column 'imagenFinalizacion' in 'field list'
+#0 C:\laragon\www\ApiTechHousing\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\ApiTechHousing\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\ApiTechHousing\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\ApiTechHousing\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\ApiTechHousing\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\ApiTechHousing\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\ApiTechHousing\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\ApiTechHousing\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\ApiTechHousing\app\Controllers\Capacitaciones.php(70): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Capacitaciones->create()
+#10 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitaciones))
+#11 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-09-20 10:41:18 --> Undefined index: idTipoFinanciamiento
+#0 C:\laragon\www\ApiTechHousing\app\Controllers\Capacitaciones.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 82, Array)
+#1 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Capacitaciones->create()
+#2 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitaciones))
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-20 10:41:52 --> There is no data to insert.
+#0 C:\laragon\www\ApiTechHousing\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\laragon\www\ApiTechHousing\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\laragon\www\ApiTechHousing\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\laragon\www\ApiTechHousing\app\Controllers\Capacitaciones.php(85): CodeIgniter\BaseModel->save(Array)
+#4 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Capacitaciones->create()
+#5 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitaciones))
+#6 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-20 10:43:08 --> There is no data to insert.
+#0 C:\laragon\www\ApiTechHousing\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\laragon\www\ApiTechHousing\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\laragon\www\ApiTechHousing\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\laragon\www\ApiTechHousing\app\Controllers\Capacitaciones.php(85): CodeIgniter\BaseModel->save(Array)
+#4 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Capacitaciones->create()
+#5 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitaciones))
+#6 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-20 10:43:50 --> Undefined index: idModalidad
+#0 C:\laragon\www\ApiTechHousing\app\Controllers\Capacitaciones.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 81, Array)
+#1 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Capacitaciones->create()
+#2 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitaciones))
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-20 10:44:01 --> There is no data to insert.
+#0 C:\laragon\www\ApiTechHousing\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\laragon\www\ApiTechHousing\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\laragon\www\ApiTechHousing\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\laragon\www\ApiTechHousing\app\Controllers\Capacitaciones.php(85): CodeIgniter\BaseModel->save(Array)
+#4 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Capacitaciones->create()
+#5 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitaciones))
+#6 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-20 10:46:56 --> There is no data to insert.
+#0 C:\laragon\www\ApiTechHousing\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\laragon\www\ApiTechHousing\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\laragon\www\ApiTechHousing\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\laragon\www\ApiTechHousing\app\Controllers\Capacitaciones.php(85): CodeIgniter\BaseModel->save(Array)
+#4 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Capacitaciones->create()
+#5 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitaciones))
+#6 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-09-20 10:48:08 --> Cannot add or update a child row: a foreign key constraint fails (`db_apitechhousing`.`tbl_capacitaciones`, CONSTRAINT `tbl_capacitaciones_idModalidad_foreign` FOREIGN KEY (`idModalidad`) REFERENCES `tbl_modalidades` (`idModalidad`) ON DELETE SET NULL ON UPD)
+CRITICAL - 2022-09-20 10:48:08 --> Cannot add or update a child row: a foreign key constraint fails (`db_apitechhousing`.`tbl_capacitaciones`, CONSTRAINT `tbl_capacitaciones_idModalidad_foreign` FOREIGN KEY (`idModalidad`) REFERENCES `tbl_modalidades` (`idModalidad`) ON DELETE SET NULL ON UPD)
+#0 C:\laragon\www\ApiTechHousing\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\ApiTechHousing\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\ApiTechHousing\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\ApiTechHousing\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\ApiTechHousing\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\ApiTechHousing\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\ApiTechHousing\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\ApiTechHousing\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\ApiTechHousing\app\Controllers\Capacitaciones.php(70): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Capacitaciones->create()
+#10 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitaciones))
+#11 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

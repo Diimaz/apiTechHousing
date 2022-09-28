@@ -1,0 +1,63 @@
+CRITICAL - 2022-09-28 11:04:21 --> Undefined variable: _SESSION
+#0 C:\laragon\www\ApiTechHousing\app\Controllers\Capacitaciones.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Capacitaciones->index()
+#2 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitaciones))
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-28 11:09:10 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-28 11:09:22 --> Undefined index: idRol
+#0 C:\laragon\www\ApiTechHousing\app\Controllers\Capacitaciones.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Capacitaciones->index()
+#2 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitaciones))
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-28 11:37:29 --> Undefined index: idRol
+#0 C:\laragon\www\ApiTechHousing\app\Controllers\Capacitaciones.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 12, Array)
+#1 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Capacitaciones->index()
+#2 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitaciones))
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-28 11:38:10 --> Undefined index: idRol
+#0 C:\laragon\www\ApiTechHousing\app\Controllers\Capacitaciones.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 12, Array)
+#1 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Capacitaciones->index()
+#2 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitaciones))
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-28 11:48:01 --> Undefined index: imagenIncriscripcion
+#0 C:\laragon\www\ApiTechHousing\app\Controllers\Capacitaciones.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 109, Array)
+#1 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Capacitaciones->create()
+#2 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitaciones))
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-28 11:48:55 --> Undefined index: imagenIncriscripcion
+#0 C:\laragon\www\ApiTechHousing\app\Controllers\Capacitaciones.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 109, Array)
+#1 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Capacitaciones->create()
+#2 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitaciones))
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-28 11:50:04 --> whereIn() expects $values to be of type array or closure
+#0 C:\laragon\www\ApiTechHousing\system\Database\BaseBuilder.php(731): CodeIgniter\Database\BaseBuilder->_whereIn('idCapacitacion', NULL, false, 'AND ', NULL)
+#1 C:\laragon\www\ApiTechHousing\system\Model.php(728): CodeIgniter\Database\BaseBuilder->whereIn('idCapacitacion', NULL)
+#2 C:\laragon\www\ApiTechHousing\app\Controllers\Capacitaciones.php(46): CodeIgniter\Model->__call('whereIn', Array)
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Capacitaciones->index()
+#4 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitaciones))
+#5 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-28 11:51:39 --> whereIn() expects $values to be of type array or closure
+#0 C:\laragon\www\ApiTechHousing\system\Database\BaseBuilder.php(731): CodeIgniter\Database\BaseBuilder->_whereIn('idUsuario', '7', false, 'AND ', NULL)
+#1 C:\laragon\www\ApiTechHousing\system\Model.php(728): CodeIgniter\Database\BaseBuilder->whereIn('idUsuario', '7')
+#2 C:\laragon\www\ApiTechHousing\app\Controllers\Capacitaciones.php(50): CodeIgniter\Model->__call('whereIn', Array)
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Capacitaciones->index()
+#4 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitaciones))
+#5 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
