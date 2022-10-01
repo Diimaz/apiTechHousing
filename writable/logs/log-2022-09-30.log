@@ -1,0 +1,205 @@
+CRITICAL - 2022-09-30 10:35:17 --> Trying to access array offset on value of type null
+#0 C:\laragon\www\ApiTechHousing\app\Controllers\Capacitaciones.php(325): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\laragon\\www\\...', 325, Array)
+#1 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Capacitaciones->show('7')
+#2 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitaciones))
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 10:35:52 --> Trying to access array offset on value of type null
+#0 C:\laragon\www\ApiTechHousing\app\Controllers\Capacitaciones.php(328): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\laragon\\www\\...', 328, Array)
+#1 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Capacitaciones->show('7')
+#2 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitaciones))
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 10:36:48 --> Trying to access array offset on value of type null
+#0 C:\laragon\www\ApiTechHousing\app\Controllers\Capacitaciones.php(340): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\laragon\\www\\...', 340, Array)
+#1 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Capacitaciones->show('7')
+#2 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Capacitaciones))
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-09-30 14:00:55 --> Unknown column 'idFotoMision' in 'field list'
+CRITICAL - 2022-09-30 14:00:55 --> Unknown column 'idFotoMision' in 'field list'
+#0 C:\laragon\www\ApiTechHousing\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `idFotoM...', 0)
+#1 C:\laragon\www\ApiTechHousing\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `idFotoM...')
+#2 C:\laragon\www\ApiTechHousing\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `idFotoM...')
+#3 C:\laragon\www\ApiTechHousing\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `idFotoM...', Array, false)
+#4 C:\laragon\www\ApiTechHousing\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ApiTechHousing\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\laragon\www\ApiTechHousing\system\Model.php(161): CodeIgniter\BaseModel->find()
+#7 C:\laragon\www\ApiTechHousing\system\BaseModel.php(554): CodeIgniter\Model->doFindColumn('idFotoMision')
+#8 C:\laragon\www\ApiTechHousing\app\Controllers\Misiones.php(283): CodeIgniter\BaseModel->findColumn('idFotoMision')
+#9 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Misiones->delete('1')
+#10 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misiones))
+#11 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-09-30 14:07:14 --> Call to a member function save() on null
+#0 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Misiones->create()
+#1 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misiones))
+#2 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-30 14:08:29 --> Call to a member function save() on null
+#0 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Misiones->create()
+#1 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misiones))
+#2 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-30 14:09:49 --> Call to a member function save() on null
+#0 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Misiones->create()
+#1 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misiones))
+#2 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-30 14:10:19 --> Call to a member function save() on null
+#0 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Misiones->create()
+#1 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misiones))
+#2 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-30 14:10:40 --> Call to a member function save() on null
+#0 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Misiones->create()
+#1 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misiones))
+#2 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-30 14:12:58 --> Call to undefined method App\Models\MisionesModel::buscarCapacitacion
+#0 C:\laragon\www\ApiTechHousing\app\Controllers\Misiones.php(147): CodeIgniter\Model->__call('buscarCapacitac...', Array)
+#1 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Misiones->create()
+#2 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misiones))
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-09-30 14:14:05 --> Unknown column 'idFotoMision' in 'field list'
+CRITICAL - 2022-09-30 14:14:05 --> Unknown column 'idFotoMision' in 'field list'
+#0 C:\laragon\www\ApiTechHousing\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `idFotoM...', 0)
+#1 C:\laragon\www\ApiTechHousing\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `idFotoM...')
+#2 C:\laragon\www\ApiTechHousing\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `idFotoM...')
+#3 C:\laragon\www\ApiTechHousing\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `idFotoM...', Array, false)
+#4 C:\laragon\www\ApiTechHousing\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ApiTechHousing\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\laragon\www\ApiTechHousing\system\Model.php(161): CodeIgniter\BaseModel->find()
+#7 C:\laragon\www\ApiTechHousing\system\BaseModel.php(554): CodeIgniter\Model->doFindColumn('idFotoMision')
+#8 C:\laragon\www\ApiTechHousing\app\Controllers\Misiones.php(280): CodeIgniter\BaseModel->findColumn('idFotoMision')
+#9 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Misiones->delete('1')
+#10 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misiones))
+#11 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-30 14:14:18 --> Unknown column 'idFotoMision' in 'field list'
+CRITICAL - 2022-09-30 14:14:18 --> Unknown column 'idFotoMision' in 'field list'
+#0 C:\laragon\www\ApiTechHousing\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `idFotoM...', 0)
+#1 C:\laragon\www\ApiTechHousing\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `idFotoM...')
+#2 C:\laragon\www\ApiTechHousing\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `idFotoM...')
+#3 C:\laragon\www\ApiTechHousing\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `idFotoM...', Array, false)
+#4 C:\laragon\www\ApiTechHousing\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ApiTechHousing\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\laragon\www\ApiTechHousing\system\Model.php(161): CodeIgniter\BaseModel->find()
+#7 C:\laragon\www\ApiTechHousing\system\BaseModel.php(554): CodeIgniter\Model->doFindColumn('idFotoMision')
+#8 C:\laragon\www\ApiTechHousing\app\Controllers\Misiones.php(280): CodeIgniter\BaseModel->findColumn('idFotoMision')
+#9 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Misiones->delete('7')
+#10 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misiones))
+#11 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-09-30 14:15:38 --> Undefined variable: arrayFotos
+#0 C:\laragon\www\ApiTechHousing\app\Controllers\Misiones.php(285): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 285, Array)
+#1 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Misiones->delete('7')
+#2 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misiones))
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 14:17:50 --> Use of undefined constant length - assumed 'length' (this will throw an Error in a future version of PHP)
+#0 C:\laragon\www\ApiTechHousing\app\Controllers\Misiones.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\laragon\\www\\...', 286, Array)
+#1 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Misiones->delete('7')
+#2 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misiones))
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-09-30 14:19:59 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-09-30 14:19:59 --> Unknown column 'id' in 'where clause'
+#0 C:\laragon\www\ApiTechHousing\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\laragon\www\ApiTechHousing\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\laragon\www\ApiTechHousing\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\laragon\www\ApiTechHousing\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\laragon\www\ApiTechHousing\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\ApiTechHousing\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\laragon\www\ApiTechHousing\app\Controllers\Misiones.php(291): CodeIgniter\BaseModel->delete(Array)
+#7 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Misiones->delete('7')
+#8 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misiones))
+#9 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-30 14:21:22 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-09-30 14:21:23 --> Unknown column 'id' in 'where clause'
+#0 C:\laragon\www\ApiTechHousing\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\laragon\www\ApiTechHousing\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\laragon\www\ApiTechHousing\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\laragon\www\ApiTechHousing\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\laragon\www\ApiTechHousing\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\ApiTechHousing\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\laragon\www\ApiTechHousing\app\Controllers\Misiones.php(291): CodeIgniter\BaseModel->delete(Array)
+#7 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Misiones->delete('7')
+#8 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misiones))
+#9 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-30 14:22:53 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-09-30 14:22:53 --> Unknown column 'id' in 'where clause'
+#0 C:\laragon\www\ApiTechHousing\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\laragon\www\ApiTechHousing\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\laragon\www\ApiTechHousing\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\laragon\www\ApiTechHousing\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\laragon\www\ApiTechHousing\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\ApiTechHousing\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\laragon\www\ApiTechHousing\app\Controllers\Misiones.php(291): CodeIgniter\BaseModel->delete(Array)
+#7 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Misiones->delete('7')
+#8 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misiones))
+#9 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-30 14:23:18 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-09-30 14:23:18 --> Unknown column 'id' in 'where clause'
+#0 C:\laragon\www\ApiTechHousing\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\laragon\www\ApiTechHousing\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\laragon\www\ApiTechHousing\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\laragon\www\ApiTechHousing\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\laragon\www\ApiTechHousing\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\ApiTechHousing\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\laragon\www\ApiTechHousing\app\Controllers\Misiones.php(291): CodeIgniter\BaseModel->delete(Array)
+#7 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Misiones->delete('7')
+#8 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misiones))
+#9 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-30 14:29:53 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-09-30 14:29:53 --> Unknown column 'id' in 'where clause'
+#0 C:\laragon\www\ApiTechHousing\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\laragon\www\ApiTechHousing\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\laragon\www\ApiTechHousing\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\laragon\www\ApiTechHousing\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\laragon\www\ApiTechHousing\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\ApiTechHousing\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\laragon\www\ApiTechHousing\app\Controllers\Misiones.php(300): CodeIgniter\BaseModel->delete(Array)
+#7 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Misiones->delete('7')
+#8 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misiones))
+#9 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-30 14:31:25 --> Undefined variable: capacitacionModel
+#0 C:\laragon\www\ApiTechHousing\app\Controllers\Misiones.php(315): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 315, Array)
+#1 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Misiones->delete('7')
+#2 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misiones))
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-30 14:31:54 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\laragon\\www\\...', 282, Array)
+#1 C:\laragon\www\ApiTechHousing\app\Controllers\Misiones.php(282): count(NULL)
+#2 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(825): App\Controllers\Misiones->delete('7')
+#3 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Misiones))
+#4 C:\laragon\www\ApiTechHousing\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\ApiTechHousing\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
